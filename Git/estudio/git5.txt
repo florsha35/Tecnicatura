@@ -5,3 +5,4 @@ git switch <nombre de la rama> --> para moverme de una rama a otra
 modifico archivo
 
 creamos  una nueva rama llamada imagen
+otro de los comandos que veremos es git merge
