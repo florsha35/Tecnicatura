@@ -2,3 +2,4 @@ ESTUDIO - clase 5 Git
 
 comando de Git
 git switch <nombre de la rama> --> para moverme de una rama a otra
+modifico archivo
