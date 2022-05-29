@@ -21,3 +21,12 @@ else:
     numTexto = 'Has ingresado un numero fuera de rango'
 print(f'El numero ingresado es : {num} - {numTexto}') '''
 
+condicion = True
+# if condicion:
+#     print('condicion verdadera')
+# else:
+#     print('Condicion falsa')
+
+# print('condicion Verdadera') if condicion else print('Condicion Falsa')
+
+
