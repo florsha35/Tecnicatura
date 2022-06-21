@@ -1,7 +1,7 @@
+
 import java.util.Scanner;
 
 // Nuestro Primer Programa Hola Mundo
-
 public class HolaMundoo {
 
     public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class HolaMundoo {
         System.out.println("miVariableCadena2 = " + miVariableCadena2);
         //soutv + tecla tab
         //Reglas para definir una variable en Java */
-        /*var usuario = "Flor";
+ /*var usuario = "Flor";
         var titulo = "Abogada";
         var union = titulo + "  " + usuario;
         System.out.println("union = " + union);
@@ -41,8 +41,7 @@ public class HolaMundoo {
         System.out.println("retroseso: \b" + nombre); // caracter de retroseso --> borra un lugar hacia atras
         System.out.println("Comillas simples: \' "+ nombre + "\'");
         System.out.println("Comillas dobles:  \"" + nombre + "\""); */
-        
-        /*/Clase Scanner
+ /*/Clase Scanner
         Scanner entrada  = new Scanner(System.in);
         System.out.println("Digite su nombre:  ");
         var usuario2 = entrada.nextLine();
@@ -50,17 +49,15 @@ public class HolaMundoo {
         System.out.println("Escriba el titulo:  ");
         var titulo2 = entrada.nextLine();
         System.out.println("Resultado: " + titulo2 + " " + usuario2); */
-        
-        /*/Scanner actividad del libro
+ /*/Scanner actividad del libro
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite el titulo del libro: ");
         var titulo = entrada.nextLine();
         System.out.println("Digitte el autor del libro: ");
         var autor = entrada.nextLine();
         System.out.println(titulo +"  "+ "fue escrito por" +"  "+ autor);
-        */
-        
-       /* byte numEnteroByte = 127;
+         */
+ /* byte numEnteroByte = 127;
         System.out.println("numEnteroByte = " + numEnteroByte);
         System.out.println("Valor minimo del Byte"+ Byte.MIN_VALUE);
         System.out.println("Valor maximo del Byte"+ Byte.MAX_VALUE);
@@ -79,8 +76,7 @@ public class HolaMundoo {
         System.out.println("numEnteroLong = " + numEnteroLong);
         System.out.println("Valor minimo del long: " + Long.MIN_VALUE);
         System.out.println("Valor maximo del long: " + Long.MAX_VALUE); */
-       
-       /*float numFloat = 3.4028235E38F;
+ /*float numFloat = 3.4028235E38F;
         System.out.println("numFloat = " + numFloat);
         System.out.println("Valor minimo del Float: " + Float.MIN_VALUE);
         System.out.println("Valor maximo del Float: " + Float.MAX_VALUE); 
@@ -89,16 +85,14 @@ public class HolaMundoo {
         System.out.println("numDouble = " + numDouble);
         System.out.println("Valor minimo del double: " + Double.MIN_VALUE);
         System.out.println("Valor maximo del double: " + Double.MAX_VALUE);*/
-       
-       /*/Inferencia de tipos var y tipos primitivos
+ /*/Inferencia de tipos var y tipos primitivos
        var numEntero = 20; // Las literales sin punto automaticamnte son de tipo entero
         System.out.println("numEntero = " + numEntero);
         var numFloat = 10.0; // automaticamente con el punto se transfortma en float
         System.out.println("numFloat = " + numFloat);
         var numDouble =10.0F;
         System.out.println("numDouble = " + numDouble); */
-        
-       /*/Tipos primitivos Char
+ /*/Tipos primitivos Char
        char miVariableChar = 'a';
         System.out.println("miVariableChar = " + miVariableChar);
         
@@ -120,8 +114,7 @@ public class HolaMundoo {
         System.out.println("varEnteroChar = " + varEnteroChar);
         int EnteroChar = 'b';
         System.out.println("EnteroChar = " + EnteroChar); */
-       
-       /*/Tipos primitivos tipos booleanos
+ /*/Tipos primitivos tipos booleanos
        boolean varBool = false;
         System.out.println("varBool = " + varBool);
         
@@ -144,47 +137,86 @@ public class HolaMundoo {
       
             
         } */
-       
-        /*/Conversion de tipos primitivos
+ /*/Conversion de tipos primitivos
        var edad = Integer.parseInt("20");
         System.out.println("edad = " + (edad + 1));
 
         var valorPi = Double.parseDouble("3.1416");
         System.out.println("valorPi = " + valorPi);*/
-        
         //Pedir un valor
 //        var entrada = new Scanner(System.in);
 //        System.out.println("Digite su edad");
 //        edad = Integer.parseInt(entrada.nextLine());
 //        System.out.println("edad = " + edad); */
-        
 //        //Conversion de tipos primitivos en Java Parte 2
 //        var edadTexto = String.valueOf(10);
 //        System.out.println("edadTexto = " + edadTexto);
-        
 //        var fraseChar = "programadores".charAt(11);
 //        System.out.println("fraseChar = " + fraseChar);
 //        
 //        System.out.println("Digite un caracter: ");
 //        fraseChar = entrada.nextLine().charAt(0);
 //        System.out.println("fraseChar = " + fraseChar);
+//           int num1 =5, num2 = 4;
+//           var solucion = num1 + num2; // aca no concatena porque la variable es INT , es una operacion aritmetica
+//           System.out.println("solucion de la suma = " + solucion);
+//           
+//           solucion = num1 - num2;
+//           System.out.println(" solucion de la resta = " +  solucion);
+//           
+//           solucion = num1 * num2;
+//           System.out.println("solucion de la multiplicacion = " + solucion);
+//           
+//           solucion = num1 / num2;
+//           System.out.println("solucion de la division = " + solucion);
+//           
+//           var solucion2= 3.4 / num2;
+//           System.out.println("solucion2el resultado de la division = " + solucion2 );   // al usar un numero con coma.. ya lo considera float solo, no hace falta indicarlos
+//                   
+//           solucion = num1 % num2; // guarda el residuo entero de la division
+//           System.out.println("solucion = " + solucion);
+//           
+//           if (num2 % 2 == 0)
+//               System.out.println("Es un numero par");
+//           else
+//               System.out.println("El numero es impar");
+//              int varNum1 = 4, varNum2 = 4;
+//              int varNum3 = varNum1 + 6 - varNum2;
+//              System.out.println("varNum3 = " + varNum3 );
+//              
+//              varNum1 +=1; //
+//              System.out.println("varNum1 = " + varNum1);
+//              
+//              varNum1 -= 2;
+//              System.out.println("varNum1 = " + varNum1);
+//              
+//              varNum1 *= 2;
+//              System.out.println("varNum1 = " + varNum1);
+//                      
+//               varNum1 /= 2;
+//               System.out.println("varNum1 = " + varNum1);
+//               
+//               varNum1 %= 3;
+//               System.out.println("varNum1 = " + varNum1);
+// Operadores unarios: Cambio de Signo
+//        var varA = 7;
+//        var varB = -varA;
+//        System.out.println("varA = " + varA);
+//        System.out.println("varB = " + varB); // mismo rdo con el cambio de signo
         
-     //Ejercicio Clase6 **Tienda de Libros**
-        Scanner entrada = new Scanner(System.in);
-        System.out.println("Ingrese los siguientes datos del libro ");
-        System.out.println("Digite el nombre del libro: ");
-        String nombre =  entrada.nextLine();
-        System.out.println("Digite el ID del libro: ");
-        int ID = Integer.parseInt(entrada.nextLine());
-        System.out.println("Digite el precio del libro: ");
-        double precio = Double.parseDouble(entrada.nextLine());
-        boolean envio = Boolean.parseBoolean(entrada.nextLine());
+//        //Operador de negacion
+//        var varC = true; //tipo boolean
+//        var varD = !varC;
+//        System.out.println("varC = " + varC);
+//        System.out.println("varD = " + varD);
         
-        System.out.println(nombre + " " + ID);
-        System.out.println("Precio del libro: $  + precio");
-        System.out.println("El envio es gratuito: + envio");
-        
-            
+        //operadores unarios de inremento : preincremento
+        var varE = 9; // se va a modificar su valor
+        var varF = ++varE; //el simbolo antes de la variable
+       // priumero se incrementa la varibale y desp se une su valor
+        System.out.println("varE = " + varE); // se incrementa en la unidad
+        System.out.println("varF = " + varF);// va a sumar uno
+
     }
 
 }
