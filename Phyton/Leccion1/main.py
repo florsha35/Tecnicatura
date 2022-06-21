@@ -9,6 +9,27 @@ y = 2
 z = x + y
 print(id(x))
 
+# Las literales se escriben x240, la variables y = x948, la variable z = x304
+print (id(y))
+print (id(z))
+
+
+# Tipos int, float, String, Bool
+x = 10
+print (x)
+print(type(x))
+
+x= 14.5
+print (x)
+print(type(x))
+
+x = "Hola Alumnos"
+print (x)
+print(type(x))
+
+x = True
+print (x)
+print(type(x))
 
 
 alto = int(input('Ingrese el alto de rectangulo'))
