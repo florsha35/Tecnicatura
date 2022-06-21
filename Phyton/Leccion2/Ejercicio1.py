@@ -73,22 +73,57 @@
 
 #Sistema de calificaciones
 
-calif = float(input('digite un valor de calificacion (0-10): '))
+#calif = float(input('digite un valor de calificacion (0-10): '))
 
-if   9 <= calif <= 10:
-    print('A')
-elif 8 <= calif <9:
-    print('B')
-elif 7 <= calif <8:
-    print('C')
-elif 6<= calif <7:
-    print('D')
-elif 0 <= calif <6:
-    print('F')
-else:
-     print('El valor ingresado es incorrecto')
+#if   9 <= calif <= 10:
+#   print('A')
+#elif 8 <= calif <9:
+#    print('B')
+#elif 7 <= calif <8:
+#    print('C')
+#elif 6<= calif <7:
+#    print('D')
+#elif 0 <= calif <6:
+#    print('F')
+#else:
+#     print('El valor ingresado es incorrecto')
 
+#Ciclo while (mientras o durante)
+#contador = 5
+#while contador < 15:
+#    print('Ejecutamos nuestro ciclo while', contador)
+#    contador += 1
+#else:
+#    print('Fin del ciclo while')
+#contador = 5
+#minimo = 1
+#while contador >= minimo:
+#    print(contador)
+#    contador -=1
 
+#Ciclo for
+# cadena = 'Hello'
+# for letra in cadena:
+#     print(letra)
+# else:
+#     print ('Fin del ciclo for')
 
+#Break
+# for letra in 'alemania':
+#     if letra == 'a':
+#         print(f' letra encontrada: {letra}')
+#     break
+# else:
+#     print('Fin del proceso for')
+
+# palabra reservada continue
+for i in range(6):
+    if i % 2 == 0:
+        print(f'valor {i}')
+
+for i in range(6):
+    if i %2 != 0:
+        continue
+        print(f' Valor: {i}')
 
 
