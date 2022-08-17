@@ -1,4 +1,4 @@
-# sentencias if/else
+#Comienzo Leccion2 sentencias if/else
 '''
 condicion = 10
 if condicion == True:
