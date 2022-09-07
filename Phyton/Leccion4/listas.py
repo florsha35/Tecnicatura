@@ -213,20 +213,36 @@
 
 #repaso de ser o conjunto
 #para definir un conjunto
-conjunto2 = set()
-conjunto1 = {'bye', }
-conjunto2.add(7)
-conjunto.add('Hola')
-print(conjunto)
-conjunto.add('hola')
-print(conjunto1)
-print(3 not in conjunto1) #respuesta booleana
+# conjunto2 = set()
+# conjunto1 = {'bye', }
+# conjunto2.add(7)
+# conjunto.add('Hola')
+# print(conjunto)
+# conjunto.add('hola')
+# print(conjunto1)
+# print(3 not in conjunto1) #respuesta booleana
+#
+# #como hacer la igualdad de dos conjuntos
+# print(conjunto == conjunto1)
+#
+# conjunto3 = conjunto1 | conjunto2 # une los dos conjuntos
+# conjunto3 = conjunto1 & conjunto2 # ver que elemnto tienen en comun
+# conjunto3 = conjunto1 - conjunto2 # muestra q elemento esa en el primer conjunto y no en el segundo
+# conjunto3 = conjunto1 ^ conjunto2 #elementos q no comparten
+# print(conjunto3)
+#
+# conjunto3 = conjunto1 | conjunto2
+# print(conjunto1.issubset(conjunto3))# para saber si el primero esta dentro del segundo
+# print(conjunto3.issuperset(conjunto1)) #saber si el prim teine  todos los elem del seg
+# print(conjunto1.isdisjoint(conjunto2)) #prara saber si comparten elementos en comun
+# conjunto1 = frozenset #hace al conjunto inmutable, no se puede agegar, modificar ni eliminar
 
-#como hacer la igualdad de dos conjuntos
-print(conjunto == conjunto1)
 
-conjunto3 = conjunto1 | conjunto # une los dos conjuntos
-conjunto3 = conjunto1 & conjunto # ver que elemnto tienen en comun
-conjunto3 = conjunto1 - conjunto # muestra q elemento esa en el primer conjunto y no en el segundo
-conjunto3 = conjunto1 ^ conjunto #elementos q no comparten
-print(conjunto3)
+#/// re´paso de diccionario
+nuevodiccionario = {'Azul': 'Blue', 'rojo': 'Red', 'Verde': 'Green'}
+print(nuevodiccionario)
+
+del (nuevodiccionario['Azul']) #elimino ese elemento
+
+diccionario2 = {'Ariel': {'Edad' : 40,'Altura': 1.83}, 'Osvaldo': [45,1.85], 'Natalia' : [35, 1.67]} #diferentes tipos de datos dentro del diccionarioo
+print(diccionario2)
