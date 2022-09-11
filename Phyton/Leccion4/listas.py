@@ -238,11 +238,51 @@
 # conjunto1 = frozenset #hace al conjunto inmutable, no se puede agegar, modificar ni eliminar
 
 
-#/// re´paso de diccionario
-nuevodiccionario = {'Azul': 'Blue', 'rojo': 'Red', 'Verde': 'Green'}
-print(nuevodiccionario)
+# #/// re´paso de diccionario
+# nuevodiccionario = {'Azul': 'Blue', 'rojo': 'Red', 'Verde': 'Green'}
+# print(nuevodiccionario)
+#
+# del (nuevodiccionario['Azul']) #elimino ese elemento
+#
+# diccionario2 = {'Ariel': {'Edad' : 40,'Altura': 1.83}, 'Osvaldo': [45,1.85], 'Natalia' : [35, 1.67]} #diferentes tipos de datos dentro del diccionarioo
+# print(diccionario2)
+#
+# seleccionArgentina = {
+#     10:{'nombre': 'Lionel Messi', 'Edad': 35, 'Altura': 1.70,'Precio': '50 millones', 'Posicion': 'extremo derecho'},
+#     11:{'nombre': 'Angel Di Maria', 'Edad': 34, 'Altura': 1.80,'Precio': '12 millones', 'Posicion': 'extremo derecho'},
+#     24:{'nombre': 'Paulo Dybala','Edad': 28, 'Altura': 1.77,'Precio': '35 millones', 'Posicion': 'medio campo'},
+#     19:{'nombre': 'Nicolas Otamendi','Edad': 34, 'Altura': 1.83,'Precio': '3.5 millones', 'Posicion': 'defensa central'},
+#     1:{'nombre': 'Franco Armani','Edad': 35, 'Altura': 1.89,'Precio': '3.5 millones', 'Posicion': 'portero'},
+#     23:{'nombre': 'Damian Emiliano Martinez','Edad': 30, 'Altura': 1.95,'Precio': '28 millones', 'Posicion': 'arquero'},
+#     7:{'nombre': 'Rodrigo De Paul','Edad': 28, 'Altura': 1.80,'Precio': '40 millones', 'Posicion': 'centrocampista'},
+#     27:{'nombre': 'Julian Alvarez','Edad': 22, 'Altura': 1.73,'Precio': '21 millones', 'Posicion': 'delantero'},
+# }
+# print(seleccionArgentina)
+# for llave, valor in seleccionArgentina.items():
+#     print(llave, valor)
+# print('Tenemos cargandos la cantidad de' ,end= ' ')
+# print(len(seleccionArgentina))
+#
+# #*****PILAS*****
+# #trabajan siempre desde el ultimo elemto, agregando o eliminando desde el final
+# pila = [1,2,3]
+# pila.append(4)
+# pila.append(5) #agrega elementos, luego del ultimo
+# print(pila)
+#
+# pila.pop() #borra el ultimo elemtno
+# print(pila)
 
-del (nuevodiccionario['Azul']) #elimino ese elemento
+#*****COLAS****
+cola = ['Ariel', 'osvaldo', 'Liliana', 'Pilar']
+cola.append('Natalia')
+cola.append('José') #agregamos
+print(cola)
 
-diccionario2 = {'Ariel': {'Edad' : 40,'Altura': 1.83}, 'Osvaldo': [45,1.85], 'Natalia' : [35, 1.67]} #diferentes tipos de datos dentro del diccionarioo
-print(diccionario2)
+SeRetira = cola.pop(0)
+print(f'Atentdido el cliente: {SeRetira}')
+SeRetira = cola.pop(0)
+print(f'Atentdido el cliente: {SeRetira}')
+SeRetira = cola.pop(0)
+print(f'Atentdido el cliente: {SeRetira}')
+print(cola)

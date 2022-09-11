@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99095d08-c2f3-4629-87c1-f17d7262070d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Ejercicios clase listas" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Diccionarios.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/listas.py" beforeDir="false" afterPath="$PROJECT_DIR$/listas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +40,7 @@
       <recent name="C:\Users\flors\Tecnicatura\Tecnicatura\Phyton\Leccion4" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Ejercicios">
+  <component name="RunManager" selected="Python.listas">
     <configuration name="Ejercicio Listas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
