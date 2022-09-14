@@ -262,6 +262,9 @@
 #     print(llave, valor)
 # print('Tenemos cargandos la cantidad de' ,end= ' ')
 # print(len(seleccionArgentina))
+
+# for i in seleccionArgentina:
+    # print(f'{i} -> {seleccionArgentina[i]}') # otra forma de ejecutar el diccionario
 #
 # #*****PILAS*****
 # #trabajan siempre desde el ultimo elemto, agregando o eliminando desde el final
@@ -274,15 +277,17 @@
 # print(pila)
 
 #*****COLAS****
-cola = ['Ariel', 'osvaldo', 'Liliana', 'Pilar']
-cola.append('Natalia')
-cola.append('José') #agregamos
-print(cola)
+# cola = ['Ariel', 'osvaldo', 'Liliana', 'Pilar']
+# cola.append('Natalia')
+# cola.append('José') #agregamos
+# print(cola)
+#
+# SeRetira = cola.pop(0)
+# print(f'Atentdido el cliente: {SeRetira}')
+# SeRetira = cola.pop(0)
+# print(f'Atentdido el cliente: {SeRetira}')
+# SeRetira = cola.pop(0)
+# print(f'Atentdido el cliente: {SeRetira}')
+# print(cola)
 
-SeRetira = cola.pop(0)
-print(f'Atentdido el cliente: {SeRetira}')
-SeRetira = cola.pop(0)
-print(f'Atentdido el cliente: {SeRetira}')
-SeRetira = cola.pop(0)
-print(f'Atentdido el cliente: {SeRetira}')
-print(cola)
+
