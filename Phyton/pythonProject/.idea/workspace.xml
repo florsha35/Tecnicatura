@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e680b1a-0b20-4675-96df-6b6f35f37a83" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Leccion4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Leccion4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Java/2SLeccion2/SegSemLeccion2/src/CicloWhile/CicloWhile.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/2SLeccion2/SegSemLeccion2/src/CicloWhile/CicloWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Leccion4/listas.py" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
