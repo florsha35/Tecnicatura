@@ -29,6 +29,30 @@ public class CicloWhile {
 //                continue; // va a la siguiente iteracion
 //            }
 //            System.out.println("contador = " + contador);
+//**** ETIQUETAS*****
+//        inicio:
+//        for (var contador = 0; contador < 7; contador++) {
+//            if (contador % 2 == 0) {
+//                System.out.println("contador = " + contador);
+//                break inicio;
+//            }
+//        }         
+//        
+//        inicio:
+//        for (var contador = 0; contador < 7; contador++) {
+//            if (contador % 2 != 0) {
+//                 continue inicio; // va a la siguiente iteracion
+//            }
+//            System.out.println("contador = " + contador);        
+//                
+//            }
+
+
+
+
+
         }
+    
+    
     }
-}
+

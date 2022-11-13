@@ -48,3 +48,7 @@ a--  -->posdecremento
 Operador Distinto, diferente(Boolean)
 != valores diferentes, sin tener en cuenta el tipo
 !== comprueba valor y tipo
+
+Operadores Logicos
+and --> &&
+or
