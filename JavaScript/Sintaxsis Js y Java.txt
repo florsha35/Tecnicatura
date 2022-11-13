@@ -1,0 +1,50 @@
+SINTAXIS SIMILARES ENTRE JAVA Y JAVASCRIPT
+
+Operadores Simplificados (tb asignan)
++=
+-=
+*=
+/=
+%=
+**=
+
+Operadores Aritmeticos
++
+-
+*
+/
+%
+
+Operadores de Asignacion
+= ( revisa el valor sin importar el tipo de dato, solo revisa contenido)
+
+Operadores de comparacion
+==   // devuleve resultado booleano
+
+Documentar
+// comentario
+/* */ Comentario multiples lineas
+
+Secuencias de escape
+\'   mostrar una comilla simple dentro de una cadena en la salida de información.
+\"  mostrar doble comilla dentro de una cadena en la salida de información.
+\\  barra invertida, es para mostrar una backslash
+\n  salto de linea
+\r retorno
+\t tabulacion
+\b retroceso
+\f salto de pagina
+
+Operado de aumento
+++ aumenta de uno en uno
+++a -->preincremento
+a++--> posincremento
+
+Operador de decremento
+--
+--a -->predecremento
+a--  -->posdecremento
+
+Operador Distinto, diferente(Boolean)
+!= valores diferentes, sin tener en cuenta el tipo
+!== comprueba valor y tipo
