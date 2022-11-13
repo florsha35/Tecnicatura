@@ -25,3 +25,12 @@ if(dentroRango >= valMin && dentroRango <= valMax){
 else {
     console.log('Esta fuera del rango')
 }
+
+//Ejercicio si el padre puede asistir al juego del hijo
+let vacaciones = false, diaDescanso = false;
+if(vacaciones || diaDescanso){
+    console.log("El padre puede asistir al juego")
+}
+else{
+    console.log("El padre NO puede asistir al juego")
+}
